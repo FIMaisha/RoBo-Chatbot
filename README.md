@@ -1,2 +1,9 @@
 # RoBo-Chatbot
-RoBo Chat is a terminal-based interactive chatbot developed in C. It provides basic conversational responses and includes additional utilities and games such as a calculator, Rock Paper Scissors, Tic Tac Toe, and a Number Guessing Game.
+RoBo Chat is a terminal-based interactive chatbot developed in C. The system integrates fundamental C programming concepts, utilizing modular functions, arrays, strings, loops, conditional statements, switch-case statements, and random number generation within a single interactive application. Designed with typo-tolerant keyword matching, the chatbot supports conversational responses alongside built-in utilities like a calculator and three mini-games consisting of Rock Paper Scissors, Tic Tac Toe, and a Number Guessing Game. 
+
+To play RoBo Chat, you launch the compiled program in your terminal to view the ASCII robot face and command menu, then enter your name when prompted to personalize the session. Once started, you enter a continuous loop where you can chat naturally, trigger jokes, use the basic calculator for arithmetic, or launch mini-games like Rock Paper Scissors, Number Guessing, and Tic Tac Toe on a 3x3 grid.
+The program handles unexpected inputs with helpful suggestions or random jokes, and whenever you are finished, typing any exit or goodbye keyword will cleanly terminate the application.
+
+Future improvements for RoBo Chat include upgrading the Tic-Tac-Toe computer opponent from random moves to a minimax algorithm for a more challenging and strategic game, as well as expanding the keyword detection using advanced string-matching or lightweight natural language processing techniques to better handle natural conversation. Additionally, future development plans involve adding persistent memory through file handling so the chatbot can save and remember user names and preferences across different sessions, alongside introducing an alternative graphical or web-based interface to move beyond the traditional terminal experience.
+
+###Author:Fatema Islam Maisha
